@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+:root {
+    --cor1: #BA0C2F;
+	--cor2: #FFD043;
+	--cor3: #F1F0F0;
+	--cor4: #231F20;
+	--cor5: #E4FEF1;
+    --font: 'Montserrat', sans-serif;
+}
+
+body, html {
+    font-family: var(--font);
+}
+
+header section.faixa-topo {
+    background-color: var(--cor4);
+    color: var(--cor3);
+    padding: 5px;
+}
+
+header section.faixa-topo div#promo {
+    text-align: center;
+}
+
+header section.faixa-topo div#promo > a {
+    text-decoration: none;
+    float: right;
+    color: var(--cor3);
+}
+
+
+/* nav ul li a {
+    color: black;
+} */
+
+.navbar-nav li a:hover {
+    color: var(--cor1);
+}
+
+.navbar-nav li a:focus {
+    color: var(--cor1);
+}
+
+main #destaques img {
+    -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+}
+
+main #destaques img:hover {
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+footer {
+    color: white;
+}
+
+footer .institucional {
+    width: 80%;
+    margin: auto;
+}
+
+footer h3{
+    font-size: 16pt;
+}
+
+footer .institucional ul {
+    list-style-position: outside;
+    margin: 0;
+    padding: 0;
+}
+
+footer .institucional ul li {
+    list-style: none;
+    margin-bottom:10px;
+}
+
+footer .institucional ul li a {
+    color: white;
+    text-decoration: none;
+}

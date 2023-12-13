@@ -1,0 +1,9 @@
+Nome: TurboThreads
+Peleta de cores:
+	#BA0C2F
+	#FFD043
+	#F1F0F0
+	#231F20
+	#E4FEF1
+1800 x 700
+500 x 660
